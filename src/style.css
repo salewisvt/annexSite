@@ -1,0 +1,21 @@
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+  .wrap {
+    width: 90%;
+  }
+}
+
+*, *:before, *:after {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: inherit;
+}
+
+/*# sourceMappingURL=style.css.map */
