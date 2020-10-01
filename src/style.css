@@ -34,38 +34,69 @@ header {
 }
 header img:nth-child(1) {
   position: absolute;
-  width: 33vw;
+  width: 40%;
   filter: brightness(125%) saturate(125%);
-  z-index: 1;
+  z-index: 2;
 }
 header img:nth-child(2) {
   width: 100%;
   filter: brightness(75%) saturate(75%);
   position: relative;
 }
+header h2 {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  background-color: #ff4d4d;
+  position: absolute;
+  z-index: 1;
+  right: 10%;
+  top: 10%;
+  transform: rotate(-22.5deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 main {
   width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 0 5rem;
+}
+
+.aside {
+  width: 100%;
+  clear: both;
+  overflow: auto;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+hr {
+  border-top: 1px solid #333;
+  width: 66%;
+  margin: 0 auto;
 }
 
 h1 {
   color: #6E9962;
   font-size: 5rem;
   font-weight: bold;
-  margin-top: 1.5rem;
-  text-align: center;
-}
-
-h2 {
-  color: #439DBF;
-  font-size: 4rem;
-  text-align: center;
 }
 
 h3 {
   font-size: 1.5rem;
-  text-align: center;
+  color: grey;
 }
+
+h3 span {
+  color: #333;
+
 
 p {
   margin: 1rem 0;
@@ -73,14 +104,11 @@ p {
   padding: 0 7rem;
 }
 
-p:nth-child(1) {
-  margin: 5rem 0;
 }
 
 p {
   margin: 1rem 0;
   text-align: justify;
-  padding: 0 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
