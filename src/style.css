@@ -95,6 +95,9 @@ h3 {
   text-align: center;
   padding: 10rem;
 }
+h3 span {
+  color: #333;
+}
 
 p {
   margin: 1rem 0;
